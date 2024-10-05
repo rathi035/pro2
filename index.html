@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECH BILLERS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div>
+        <div class="container-fluid bg-dark text-white">
+            <div class="row align-items-center py-2">
+                <div class="col-4 col-md-3 col-lg-2">
+                    <img src="./images/techbillers img.png" alt="Logo" class="img-fluid">
+                </div>
+                <div class="col-8 col-md-6 col-lg-7">
+                    <div class="d-flex align-items-center position-relative">
+                        <img class="searchimg" src="./images/Mask.png" alt="search">
+                        <input type="text" class="form-control text-white" placeholder="Search Product or Table">
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-lg-3 d-flex justify-content-end align-items-center mt-3 mt-md-0">
+                    <img src="./images/Notification.png" alt="Bell" class="me-3">
+                    <img class="rounded-circle" src="./images/Profile_img.png" alt="Profile" width="40" height="40">
+                </div>
+            </div>
+        </div>
+        <!-- Sidebar (Visible on larger screens) -->
+    <div class="sidebar bg-dark d-none d-lg-block">
+        <ul class="side-barr">
+        <li class="nav-item"><a href="#dashboard" class="nav-link text-white nav_list">
+            <img src="images/image-removebg-preview (1).png" class="mr-2"> Dashboard</a>
+    </li>
+    <li class="nav-item"><a href="#billing" class="nav-link text-white"><img
+                src="images/docs.png" class="mr-2"> Billing</a>
+    </li>
+    <li class="nav-item"><a href="#view-bills" class="nav-link text-white"><img
+                src="images/docs.png" class="mr-2"> View Bills</a></li>
+    <li class="nav-item"><a href="#view-table-order" class="nav-link text-white"><img
+                src="images/image-removebg-preview (3).png" class="mr-2"> View Table</a></li>
+    <li class="nav-item"><a href="#view-order" class="nav-link text-white"><img
+                src="images/image-removebg-preview (3).png" class="mr-2"> View Order</a></li>
+    <li class="nav-item"><a href="#add-dishes" class="nav-link text-white"><img
+                src="images/image-removebg-preview (4).png" class="mr-2"> Add Dishes</a></li>
+    <li class="nav-item"><a href="#add-addons" class="nav-link text-white"><img
+                src="images/image-removebg-preview (5).png" class="mr-2"> Add Addons</a></li>
+    <li class="nav-item"><a href="#add-category" class="nav-link text-white"><img
+                src="images/image-removebg-preview (6).png" class="mr-2"> Add Category</a></li>
+    <li class="nav-item"><a href="#add-stock" class="nav-link text-white"><img
+                src="images/image-removebg-preview (7).png" class="mr-2"> Add Stock</a></li>
+    <li class="nav-item"><a href="#tax" class="nav-link text-white"><img
+                src="images/image-removebg-preview (5).png" class="mr-2"> Tax</a></li>
+    <li class="nav-item"><a href="#add-tables" class="nav-link text-white"><img
+                src="images/image-removebg-preview (3).png" class="mr-2"> Add Tables</a></li>
+    <li class="nav-item"><a href="#add-vendors" class="nav-link text-white"><img
+                src="images/image-removebg-preview (3).png" class="mr-2"> Add Vendors</a></li>
+    <li class="nav-item"><a href="#expenses" class="nav-link text-white"><img
+                src="images/image-removebg-preview (6).png" class="mr-2"> Expenses</a></li>
+    <li class="nav-item"><a href="#reports" class="nav-link text-white"><img
+                src="images/image-removebg-preview (2).png" class="mr-2"> Reports</a></li>
+    <li class="nav-item"><a href="#logout" class="nav-link text-white"><img
+                src="images/image-removebg-preview (7).png" class="mr-2"> Logout</a></li>
+</ul>
+    </div>
+
+    <!-- Content Area -->
+    <div class="content-area">
+        <!-- Rest of your content goes here -->
+    </div>
+</div>
+
+        <!-- Transparent Menu Icon to Trigger Off-Canvas -->
+        <button class="btn transparent-menu-icon d-md-none" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasSidebar" aria-controls="offcanvasSidebar" aria-label="Toggle Sidebar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Off-Canvas Sidebar -->
+        <div class="offcanvas offcanvas-start bg-dark" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+            id="offcanvasSidebar" aria-labelledby="offcanvasSidebarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title text-white" id="offcanvasSidebarLabel">Sidebar Menu</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="homemain">
+                    <div class="homeleft">
+                        <ul class="nav flex-column sidebar1">
+                            <li class="nav-item"><a href="#dashboard" class="nav-link text-white nav_list">
+                                    <img src="images/image-removebg-preview (1).png" class="mr-2"> Dashboard</a>
+                            </li>
+                            <li class="nav-item"><a href="#billing" class="nav-link text-white"><img
+                                        src="images/docs.png" class="mr-2"> Billing</a>
+                            </li>
+                            <li class="nav-item"><a href="#view-bills" class="nav-link text-white"><img
+                                        src="images/docs.png" class="mr-2"> View Bills</a></li>
+                            <li class="nav-item"><a href="#view-table-order" class="nav-link text-white"><img
+                                        src="images/image-removebg-preview (3).png" class="mr-2"> View Table</a></li>
+                            <li class="nav-item"><a href="#view-order" class="nav-link text-white"><img
+                                        src="images/image-removebg-preview (3).png" class="mr-2"> View Order</a></li>
+                            <li class="nav-item"><a href="#add-dishes" class="nav-link text-white"><img
+                                        src="images/image-removebg-preview (4).png" class="mr-2"> Add Dishes</a></li>
+                            <li class="nav-item"><a href="#add-addons" class="nav-link text-white"><img
+                                        src="images/image-removebg-preview (5).png" class="mr-2"> Add Addons</a></li>
+                            <li class="nav-item"><a href="#add-category" class="nav-link text-white"><img
+                                        src="images/image-removebg-preview (6).png" class="mr-2"> Add Category</a></li>
+                            <li class="nav-item"><a href="#add-stock" class="nav-link text-white"><img
+                                        src="images/image-removebg-preview (7).png" class="mr-2"> Add Stock</a></li>
+                            <li class="nav-item"><a href="#tax" class="nav-link text-white"><img
+                                        src="images/image-removebg-preview (5).png" class="mr-2"> Tax</a></li>
+                            <li class="nav-item"><a href="#add-tables" class="nav-link text-white"><img
+                                        src="images/image-removebg-preview (3).png" class="mr-2"> Add Tables</a></li>
+                            <li class="nav-item"><a href="#add-vendors" class="nav-link text-white"><img
+                                        src="images/image-removebg-preview (3).png" class="mr-2"> Add Vendors</a></li>
+                            <li class="nav-item"><a href="#expenses" class="nav-link text-white"><img
+                                        src="images/image-removebg-preview (6).png" class="mr-2"> Expenses</a></li>
+                            <li class="nav-item"><a href="#reports" class="nav-link text-white"><img
+                                        src="images/image-removebg-preview (2).png" class="mr-2"> Reports</a></li>
+                            <li class="nav-item"><a href="#logout" class="nav-link text-white"><img
+                                        src="images/image-removebg-preview (7).png" class="mr-2"> Logout</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="roww justify-content-center">
+            <div class="col-12 col-md-6 col-lg-4 mb-3 block1">
+                <div class="box_11 p-3">
+                    <span class="kkk">Receivables</span>
+                    <span class="this-week">This Week</span>
+                </div>
+
+                <div class="box_111 d-flex align-items-center justify-content-between p-3 rupees">
+                    <p>&#8377 1,23,656</p>
+                    <div class="d-flex align-items-center arrowup">
+                        <img src="./images/solar_alt-arrow-up-bold.png" alt="Up Arrow" class="me-2">
+                        <span class="text-success">4%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-3 block2">
+                <div class="box_11 p-3">
+                    <span>Payables</span>
+                    <span class="thiss-week">This Week</span>
+                </div>
+                <div class="box_111 d-flex align-items-center justify-content-between p-3 rupee">
+                    <p>&#8377 78,000.00</p>
+                    <div class="d-flex align-items-center arrowdown">
+                        <img src="./images/arrowdown.png" alt="Down Arrow" class="me-2  arrow-img">
+                        <span class="text-danger">4%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-12">
+                    <div class="dishes">
+                        <div class="dishes-block">
+                            <h4>Order ID: #1502</h4>
+                        </div>
+                        <div class="dishes-block1">
+                            <p>Tuesday 2, Feb 2024</p>
+                        </div>
+                        <div class="Search-block">
+                            <input type="text" placeholder="Search Product or table" class="form-control">
+                        </div>
+                        <ul class="nav nav-underline justify-content-center flex-wrap  lll">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Hot Dishes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Cold Dishes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Soup</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Grill</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Appetizer</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Dessert</a>
+                            </li>
+                        </ul>
+                        <div class="view-cart text-center">
+                            <button type="button" class="btn">View Cart</button>
+                        </div>
+                        <div class="headd text-center">
+                            <h5>Choose Dishes</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scrollable-container">
+                <div class="row justify-content-center">
+                    <!-- Repeat this block for each card -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 mt-5">
+                        <div class="custom-card p-4 three">
+                            <img src="./images/i1-removebg-preview.png" alt="Card Image" width="80" height="80">
+                            <p>Beaf dumping in hot and sauce soup</p>
+                            <div class="price">$2.99</div>
+                        </div>
+                    </div>
+                    <!-- Repeat card blocks as needed -->
+                    <!-- Include 12 card blocks as per your requirement -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 mt-5">
+                        <div class="custom-card p-4 four">
+                            <img src="./images/i1-removebg-preview.png" alt="Card Image" width="80" height="80">
+                            <p>Spicy seasoned seafood noodles.</p>
+                            <div class="price">$2.29</div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 mt-5">
+                        <div class="custom-card p-4 five">
+                            <img src="./images/i1-removebg-preview.png" alt="Card Image" width="80" height="80">
+                            <p>Salted pasta with mushroom sauce.</p>
+                            <div class="price">$2.09</div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 mt-5">
+                        <div class="custom-card p-4 six">
+                            <img src="./images/i1-removebg-preview.png" alt="Card Image" width="80" height="80">
+                            <p>Healthy noodle with spinach leaf</p>
+                            <div class="price">$3.29</div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 mt-5">
+                        <div class="custom-card p-4 seven">
+                            <img src="./images/i1-removebg-preview.png" alt="Card Image" width="80" height="80">
+                            <p>Healthy noodle with spinach leaf.</p>
+                            <div class="price">$19.99</div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 mt-5">
+                        <div class="custom-card p-4 eight">
+                            <img src="./images/i1-removebg-preview.png" alt="Card Image" width="80" height="80">
+                            <p>Spicy instant noodle with spices carrelette.</p>
+                            <div class="price">$3.59</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="final">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-4">
+                <div class="running text-center">
+                    <img src="./images/RunnningOrders.png" class="img-fluid" alt="Running Orders">
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="daily text-center">
+                    <img src="./images/Graph.png" class="img-fluid" alt="Graph">
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="selling text-center">
+                    <img src="./images/SellingProducts.png" class="img-fluid" alt="Selling Products">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

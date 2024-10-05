@@ -1,0 +1,725 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: Arial, sans-serif;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+    background-color:#18191e;
+}
+
+.roww {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 70px;
+    margin-top: -820px;
+    width: 950px;
+}
+
+:root {
+    --bgcolor: #2D303E;
+}
+.side-barr{
+    margin-left: -30px;
+}
+
+.container-fluid {
+    background-color: var(--bgcolor);
+}
+
+.form-control {
+    padding-left: 40px;
+    background-color: #2D303E;
+    border: none;
+}
+
+.searchimg {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.d-flex {
+    position: relative;
+}
+
+.mr-2 {
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.sidebar1 {
+    display: block;
+}
+
+.nav_list:hover {
+    color: blue;
+}
+
+.navbar-toggler {
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 30px;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.box_11 span {
+    color: rgb(8, 173, 255);
+}
+
+.box_11 .this-week,
+.box_11 .thiss-week {
+    color: white;
+}
+
+.rupees p,
+.rupee p {
+    color: white;
+}
+
+.arrowup img,
+.arrowdown img {
+    width: 20px;
+}
+
+.arrowup span,
+.arrowdown span {
+    margin-top: -10px;
+}
+
+.block1,
+.block2 {
+    box-shadow: 4px 2px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dishes-block h4,
+.dishes-block1 p,
+.headd h5 {
+    color: white;
+    margin-top: 10px;
+    margin-left: 160px;
+}
+
+.dishes-block1 p {
+    color: rgb(199, 199, 199);
+    margin-left: 160px;
+}
+
+.Search-block input {
+    background-color: #41464b;
+    color: white;
+    width: 300px;
+    margin-left: 550px;
+    margin-top: -50px;
+}
+
+.nav-link {
+    color: white;
+    
+}
+.lll{
+    margin-top: 30px;
+    margin-left: -280px;
+}
+
+.nav-link:hover {
+    color: rgb(8, 173, 255);
+}
+.headd h5{
+    margin-left: -660px;
+    margin-top: -30px;
+}
+
+.btn {
+    background-color: rgb(12, 174, 255);
+    margin-left: 480px;
+    margin-top: 10px;
+}
+
+.custom-card {
+    text-align: center;
+    background-color: #41464b;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    width: 100%;
+}
+
+.custom-card img {
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.custom-card p,
+.custom-card .price {
+    color: #ffffff;
+}
+
+.scrollable-container {
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.scrollable-container::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollable-container {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.transparent-menu-icon {
+    background-color: rgb(12, 174, 255);
+}
+
+.transparent-menu-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.final .img-fluid {
+    margin-top: 20px;
+}
+.three{
+    width: 200px;
+    margin-left: 200px;
+    
+}
+.four{
+    width: 200px;
+    margin-left: 130px;
+}
+.five{
+    width: 200px;
+    margin-left: 80px;
+}
+.six{
+    width: 200px;
+    margin-top: 260px;
+    margin-left: -200px;
+}
+.seven{
+    width: 200px;
+    margin-top: -290px;
+    margin-left: -130px;
+}
+.eight{
+    width: 200px;
+    margin-top: -290px;
+    margin-left: -160px;
+    height: 215px;
+}
+.running img{
+    height: 200px;
+    margin-left: 980px;
+}
+.running{
+    margin-top: -910px;
+}
+.daily img{
+    height: 250px;
+    width: 260px;
+    margin-left: 550px;
+}
+.daily{
+    margin-top: -680px;
+}
+.selling img{
+    height: 250px;
+    width: 260px;
+    margin-left: 90px;
+}
+.selling{
+    margin-top: -400px;
+}
+/* Media query for laptops */
+@media only screen and (min-width: 1024px) {
+    .roww {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 20px;
+        margin-top: -820px;
+        width: 950px;
+    }
+    
+    :root {
+        --bgcolor: #2D303E;
+    }
+    .side-barr{
+        margin-left: -60px;
+    }
+    
+    .container-fluid {
+        background-color: var(--bgcolor);
+    }
+    
+    .form-control {
+        padding-left: 40px;
+        background-color: #2D303E;
+        border: none;
+    }
+    
+    .searchimg {
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
+    .d-flex {
+        position: relative;
+    }
+    
+    .mr-2 {
+        height: 40px;
+        width: 40px;
+        margin-left: 20px;
+        padding: 10px;
+    }
+    
+    .sidebar1 {
+        display: block;
+    }
+    
+    .nav_list:hover {
+        color: blue;
+    }
+    
+    .navbar-toggler {
+        position: absolute;
+        margin-top: 450px;
+        margin-left: 30px;
+    }
+    
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        vertical-align: middle;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
+    
+    .box_11 span {
+        color: rgb(8, 173, 255);
+    }
+    
+    .box_11 .this-week,
+    .box_11 .thiss-week {
+        color: white;
+    }
+    
+    .rupees p,
+    .rupee p {
+        color: white;
+    }
+    
+    .arrowup img,
+    .arrowdown img {
+        width: 20px;
+    }
+    
+    .arrowup span,
+    .arrowdown span {
+        margin-top: -10px;
+    }
+    
+    .block1,
+    .block2 {
+        box-shadow: 4px 2px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .dishes-block h4,
+    .dishes-block1 p,
+    .headd h5 {
+        color: white;
+        margin-top: 10px;
+        margin-left: 140px;
+    }
+    
+    .dishes-block1 p {
+        color: rgb(199, 199, 199);
+        margin-left: 140px;
+    }
+    
+    .Search-block input {
+        background-color: #41464b;
+        color: white;
+        width: 300px;
+        margin-left: 470px;
+        margin-top: -50px;
+    }
+    
+    .nav-link {
+        color: white;
+        
+    }
+    .lll{
+        margin-top: 30px;
+        margin-left: -140px;
+    }
+    
+    .nav-link:hover {
+        color: rgb(8, 173, 255);
+    }
+    .headd h5{
+        margin-left: -530px;
+        margin-top: -30px;
+    }
+    
+    .btn {
+        background-color: rgb(12, 174, 255);
+        margin-left: 500px;
+        margin-top: 10px;
+    }
+    
+    .custom-card {
+        text-align: center;
+        background-color: #41464b;
+        border: 1px solid #dee2e6;
+        border-radius: 0.25rem;
+        width: 100%;
+    }
+    
+    .custom-card img {
+        border-radius: 50%;
+        border: 2px solid #fff;
+    }
+    
+    .custom-card p,
+    .custom-card .price {
+        color: #ffffff;
+    }
+    
+    .scrollable-container {
+        height: 500px;
+        overflow-y: scroll;
+    }
+    
+    .scrollable-container::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .scrollable-container {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    
+    .transparent-menu-icon {
+        background-color: rgb(12, 174, 255);
+    }
+    
+    .transparent-menu-icon:focus {
+        outline: none;
+        box-shadow: none;
+    }
+    
+    .final .img-fluid {
+        margin-top: 20px;
+    }
+    .three{
+        width: 200px;
+        margin-left: 130px;
+        
+    }
+    .four{
+        width: 200px;
+        margin-left: 100px;
+    }
+    .five{
+        width: 200px;
+        margin-left: 70px;
+    }
+    .six{
+        width: 200px;
+        margin-top: 230px;
+        margin-left: -170px;
+    }
+    .seven{
+        width: 200px;
+        margin-top: -290px;
+        margin-left: -110px;
+    }
+    .eight{
+        width: 200px;
+        margin-top: -290px;
+        margin-left: -140px;
+        height: 215px;
+    }
+    .running img{
+        height: 200px;
+        margin-left: 850px;
+        width: 180px;
+    }
+    .running{
+        margin-top: -910px;
+    }
+    .daily img{
+        height: 250px;
+        width: 180px;
+        margin-left: 500px;
+    }
+    .daily{
+        margin-top: -680px;
+    }
+    .selling img{
+        height: 250px;
+        width: 180px;
+        margin-left: 150px;
+    }
+    .selling{
+        margin-top: -400px;
+    }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1599px) {
+    .running img{
+        width: 250px;
+        margin-left: 1150px;
+    }
+    .daily img{
+        width: 250px;
+        margin-left: 660px;
+    }
+    .selling img{
+        width: 250px;
+        margin-left: 120px;
+    }
+    .roww {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 20px;
+        margin-top: -820px;
+        width: 1350px;
+    }
+    .Search-block input {
+        background-color: #41464b;
+        color: white;
+        width: 300px;
+        margin-left: 650px;
+        margin-top: -50px;
+    }
+    
+    .nav-link {
+        color: white;
+        
+    }
+    .lll{
+        margin-top: 30px;
+        margin-left: -400px;
+    }
+    
+    .nav-link:hover {
+        color: rgb(8, 173, 255);
+    }
+    .headd h5{
+        margin-left: -780px;
+        margin-top: -30px;
+    }
+    
+    .btn {
+        background-color: rgb(12, 174, 255);
+        margin-left: 500px;
+        margin-top: 10px;
+    }
+    .dishes-block{
+        margin-left: 50px;
+    }
+    .dishes-block1 p{
+        margin-left: 200px;
+    }
+    .three{
+        margin-left: 200px;
+    }
+    .five{
+        margin-left: -10px;
+    }
+    .six{
+        margin-left: -340px;
+    }
+    .seven{
+        margin-left: -130px;
+    }
+    .eight{
+        margin-left: -230px;
+    }
+}
+@media only screen and (min-width: 3840px) {
+    /* Styles for 4K displays */
+    
+    .roww {
+        margin-left: 100px;
+        margin-top: -820px;
+        width: 1800px;
+    }
+
+    .sidebar1 {
+        display: block;
+        width: 300px;
+    }
+
+    .navbar-toggler {
+        margin-top: 500px;
+        margin-left: 50px;
+    }
+
+    .Search-block input {
+        width: 600px;
+        margin-left: 1200px;
+        margin-top: -50px;
+    }
+
+    .custom-card {
+        width: 70%;
+    }
+
+    .three {
+        margin-left: 250px;
+    }
+
+    .four {
+        margin-left: 220px;
+    }
+
+    .five {
+        margin-left: 150px;
+    }
+
+    .six {
+        margin-left: -300px;
+    }
+
+    .seven {
+        margin-left: -230px;
+    }
+
+    .eight {
+        margin-left: -320px;
+        height: 300px;
+    }
+
+    .running img {
+        margin-left: 2000px;
+    }
+
+    .daily img {
+        height: 350px;
+        width: 360px;
+        margin-left: 1200px;
+    }
+
+    .selling img {
+        height: 350px;
+        width: 360px;
+        margin-left: 200px;
+    }
+}
+@media only screen and (min-width: 2560px) and (max-width: 3839px) {
+    /* Styles for 2560px width screens */
+    
+    .roww {
+        margin-left: 540px;
+        margin-top: -810px;
+        width: 1400px;
+    }
+
+    .sidebar1 {
+        display: block;
+        width: 280px;
+    }
+
+    .navbar-toggler {
+        margin-top: 480px;
+        margin-left: 40px;
+    }
+    .lll{
+        margin-left: -500px;
+    }
+    .headd h5{
+        margin-left: -890px;
+    }
+    .Search-block input {
+        width: 500px;
+        margin-left: 500px;
+        margin-top: -50px;
+    }
+
+    .custom-card {
+        width: 75%;
+    }
+
+    .three {
+        margin-left: 130px;
+    }
+
+    .four {
+        margin-left: 90px;
+    }
+
+    .five {
+        margin-left: 90px;
+    }
+
+    .six {
+        margin-left: -240px;
+    }
+
+    .seven {
+        margin-left: -200px;
+        
+    }
+
+    .eight {
+        margin-left: -240px;
+      
+    }
+
+    .running img {
+        margin-left: 2200px;
+        width: 300px;
+    }
+    .running{
+        margin-top: -950px;
+    }
+
+    .daily img {
+        height: 300px;
+        width: 310px;
+        margin-left: 1330px;
+    }
+    .daily{
+        margin-top: -730px;
+    }
+
+    .selling img {
+        height: 300px;
+        width: 310px;
+        margin-left: 410px;
+    }
+    .selling{
+        margin-top: -420px;
+    }
+}
